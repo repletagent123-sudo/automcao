@@ -1,7 +1,10 @@
 name: Executar Robo de Prospeccao
 
 on:
-  workflow_dispatch: # Permite que você clique num botão para rodar quando quiser
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   executar:
@@ -9,18 +12,25 @@ jobs:
 
     steps:
     - name: Baixar codigo do repositorio
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Configurar o Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-cache: '3.10'
+        python-version: '3.10'
 
-    - name: Instalar dependencias
-      run: |
-        pip install openai requests
+    - name: Instalar OpenAI
+      run: pip install openai
 
-    - name: Rodar o Script de Prospeccao
+    - name: Rodar o script do Robo
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: python script_prospeccao.py
+
+    - name: Salvar e Enviar arquivos para o GitHub
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add leads_qualificados.json
+        git commit -m "Automacao: Relatorio gerado" || echo "Sem mudancas"
+        git push
