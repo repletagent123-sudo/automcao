@@ -1,0 +1,26 @@
+name: Executar Robo de Prospeccao
+
+on:
+  workflow_dispatch: # Permite que você clique num botão para rodar quando quiser
+
+jobs:
+  executar:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Baixar codigo do repositorio
+      uses: actions/checkout@v3
+
+    - name: Configurar o Python
+      uses: actions/setup-python@v4
+      with:
+        python-cache: '3.10'
+
+    - name: Instalar dependencias
+      run: |
+        pip install openai requests
+
+    - name: Rodar o Script de Prospeccao
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: python script_prospeccao.py
