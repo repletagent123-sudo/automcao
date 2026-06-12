@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Estética Advanced",
+        "instagram": "@estetica_advanced",
+        "site_atual": "Não possui",
+        "analise_ia": {
+            "pontos_fracos": [
+                "Falta de presença online, dificultando a descoberta por novos clientes.",
+                "Impossibilidade de apresentar serviços, tratamentos e preços de forma clara e organizada.",
+                "Perda de credibilidade em comparação a concorrentes que possuem sites profissionais.",
+                "Limitação na captação de leads e agendamentos online, resultando em menos clientes.",
+                "Dificuldade em compartilhar informações e promoções de forma eficaz."
+            ],
+            "proposta_valor": "Criar um site responsivo e moderno que destaque os serviços oferecidos pela clínica, com uma seção de agendamento online, depoimentos de clientes e um blog para compartilhar dicas de beleza e cuidados, aumentando a interação e a fidelização dos clientes.",
+            "paleta_cores": [
+                "#FF6F61",
+                "#6FA3EF",
+                "#3C3C3C"
+            ]
+        }
+    },
+    {
+        "nome": "Clínica Bella Pele",
+        "instagram": "@bellapele_estetica",
+        "site_atual": "http://bellapeleantigo.com.br",
+        "analise_ia": {
+            "pontos_fracos": [
+                "Falta de uma experiência de usuário moderna que pode afastar potenciais clientes.",
+                "Dificuldade em apresentar serviços e promoções de forma clara e atraente.",
+                "Baixa visibilidade em mecanismos de busca devido a um design desatualizado e não responsivo.",
+                "Perda de credibilidade, já que um site desatualizado pode transmitir falta de profissionalismo.",
+                "Incapacidade de integrar funcionalidades como agendamento online, que são essenciais para a conveniência do cliente."
+            ],
+            "proposta_valor": "Criar um site responsivo e moderno que destaque os serviços da Clínica Bella Pele, com agendamento online, depoimentos de clientes e uma seção de blog para educar e engajar o público. O design será focado em conversão, utilizando chamadas para ação claras e visuais atraentes para maximizar a captação de leads.",
+            "paleta_cores": [
+                "#F1A7A1",
+                "#EAB8B8",
+                "#D7C6D9"
+            ]
+        }
+    },
+    {
+        "nome": "Viver Bem Estética",
+        "instagram": "@viverbem_sp",
+        "site_atual": "Não possui",
+        "analise_ia": {
+            "pontos_fracos": [
+                "Ausência de presença online que limita a visibilidade e alcance a novos clientes.",
+                "Perda de credibilidade, pois muitos consumidores buscam informações sobre serviços na internet antes de decidir.",
+                "Dificuldade em apresentar serviços, promoções e resultados de forma atrativa.",
+                "Impossibilidade de capturar leads e realizar marketing digital eficaz.",
+                "Falta de um canal para agendamentos online, que facilita a experiência do cliente."
+            ],
+            "proposta_valor": "Desenvolver um site moderno e responsivo que destaque os serviços oferecidos pela clínica, com seções para depoimentos de clientes, agendamentos online, blog com dicas de beleza e saúde, além de integração com redes sociais para aumentar o engajamento e conversão.",
+            "paleta_cores": [
+                "#6EB2D5",
+                "#F2A900",
+                "#C47C9A"
+            ]
+        }
+    }
+]
