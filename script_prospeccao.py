@@ -13,7 +13,7 @@ clinicas_alvo = [
 ]
 
 def analisar_clinica(clinica):
-    print(f"\n[Robó] Analisando {clinica['nome']} ({clinica['instagram']})...")
+    print(f"\n[Robo] Analisando {clinica['nome']} ({clinica['instagram']})...")
     
     prompt = f"""
     Você é um especialista em marketing digital e estruturação de negócios.
